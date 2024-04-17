@@ -1,0 +1,26 @@
+button {
+    padding: 10px 20px; /* Ajusta el padding para controlar el tamaño de los botones */
+    margin: 5px; /* Espacio entre los botones */
+    background-color: #405DE6; /* Color de fondo similar al de Instagram */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 25px; /* Bordes redondeados para un aspecto más suave */
+    cursor: pointer; /* Cambia el cursor al pasar sobre los botones */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas */
+  }
+  
+  button:hover {
+    background-color: #5851DB; /* Cambia el color de fondo al pasar sobre los botones */
+  }
+  
+  #counter {
+    font-size: 45px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+  }
